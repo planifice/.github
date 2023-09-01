@@ -1,0 +1,41 @@
+name: "🍏 Feature (Development)"
+description: New feature request for software developers
+title: "🍏 What should we implement?"
+labels: ["t: feature", "o: development"]
+projects: ["planifice/1"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please, fill in the fields below. And don't forget to add extra labels if necessary.
+  - type: textarea
+    attributes:
+      label: Description
+      description: Describe the desired feature in detail.
+      placeholder: Enter text...
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Reasoning
+      description: Tell us why the feature is needed.
+      placeholder: Enter text...
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Suggested implementation
+      description: Describe your vision of how to implement the feature.
+      placeholder: Enter text...
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Additional info
+      description: |
+        Provide links, images, videos — anything related to the issue.
+      placeholder: |
+        Enter text or attach files by clicking this area and then dragging them in...
+    validations:
+      required: false
